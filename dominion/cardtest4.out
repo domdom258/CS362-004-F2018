@@ -1,0 +1,15 @@
+Card test 4
+Testing the adventure card
+check the hand count
+
+Failed
+Check the deck count after shuffling
+
+Failed
+File 'dominion.c'
+Lines executed:24.42% of 565
+Branches executed:21.58% of 417
+Taken at least once:17.03% of 417
+Calls executed:16.83% of 101
+Creating 'dominion.c.gcov'
+

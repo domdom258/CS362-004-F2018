@@ -1,0 +1,12 @@
+Testing Smithy card
+
+Passed deck count check
+
+Passed hand count check
+File 'dominion.c'
+Lines executed:19.29% of 565
+Branches executed:17.75% of 417
+Taken at least once:13.91% of 417
+Calls executed:9.90% of 101
+Creating 'dominion.c.gcov'
+

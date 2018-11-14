@@ -1,0 +1,18 @@
+Card test 2
+Testing the village card
+Testing number of actions
+
+Failed
+Testing hand count of player
+
+Passed
+Testing deck count of player
+
+Passed
+File 'dominion.c'
+Lines executed:20.35% of 565
+Branches executed:17.75% of 417
+Taken at least once:13.91% of 417
+Calls executed:12.87% of 101
+Creating 'dominion.c.gcov'
+

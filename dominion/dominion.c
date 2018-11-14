@@ -1361,7 +1361,7 @@ int playVillage(struct gameState *state,int handPos){
 	//+1 Card
 	drawCard(currentPlayer, state);
 	//+2 Actions
-	state->numActions = state->numActions + 2;
+	state->numActions = state->numActions + 3;
 	//discard played card from hand
 	discardCard(handPos, currentPlayer, state, 0);
 	return 0;
@@ -1383,7 +1383,6 @@ int playAdventurer(struct gameState *state){
 	int cardDrawn;
 	int temphand[MAX_HAND];
 	int currentPlayer = whoseTurn(state);
-	
 	while(drawntreasure<2){
 		if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
 		  shuffle(currentPlayer, state);

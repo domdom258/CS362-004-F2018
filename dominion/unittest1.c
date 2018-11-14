@@ -10,8 +10,11 @@
 int main(){
 
 	struct gameState Game;
+	        int k[10] = {smithy,copper, mine, adventurer, gold, sea_hag, baron, village, gardens, estate};
+
+	initializeGame(2,k,3,&Game);
 	Game.coins = 0;
-	
+		
 	printf("\n Unit test 1*\n");
 	
 	printf("\nTest 1: using differnet coins\n");
